@@ -1,0 +1,58 @@
+/*!:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;
+#8018A1
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+.PageBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/bg_page.png") no-repeat center center fixed;
+  background-size: cover;
+  transition: -webkit-filter 0.5s;
+  transition: filter 0.5s;
+  transition: filter 0.5s, -webkit-filter 0.5s;
+}
+
+nav {
+  font-family: 'Poppins', sans-serif;
+}
+
+a.nav-link{
+  letter-spacing: 1px;
+  color: #fff!important;
+  transition: color 0.5s;
+}
+
+a.nav-link:hover{
+  color: #007bff!important;
+}
+
+header, main{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.headHr{
+	border-color: #007bff;
+	width: 70px;
+	border-width: 3px;
+}
+
+.btn-page{
+  border-radius: 30px 30px 30px 30px!important;
+}
+@media (min-width: 767.98px)
+{ 
+  .LayananSection{
+    transition: margin 1s;
+  }
+
+  .LayananSection:hover{
+    margin: 10px;
+  }
+}
+
+.LayananImg{
+  border-radius: 50px 50px 150px 25px;
+}
+
+.LayananText{
+  margin:auto;
+}
+
