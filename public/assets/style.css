@@ -108,6 +108,18 @@ main h1{
 
 .ufo-price-section{
   background: #9D50BB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ufo-price-section .card{
+  border-radius: 25px 25px 5px 5px;
+}
+
+.price-section li{
+  list-style-type: none;
+}
+
+footer{
+  background :#444444;
 }
