@@ -1,9 +1,9 @@
 /*!:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;
 #8018A1
 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display&family=Poppins&display&family=Montserrat&display=swap');
 .PageBackground {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/bg_page.png") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   transition: -webkit-filter 0.5s;
   transition: filter 0.5s;
@@ -11,48 +11,97 @@
 }
 
 nav {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a.nav-link{
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   color: #fff!important;
   transition: color 0.5s;
 }
 
 a.nav-link:hover{
-  color: #007bff!important;
+  color: #9D50BB!important;
+}
+
+.ufo-name{
+  font-family: 'Righteous', sans-serif;
+  font-size:2.5em;
+  background: -webkit-linear-gradient(#6E48AA, #9D50BB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ufo-name-section{
+  font-family: 'Righteous', sans-serif;
+  font-size:2em;
+}
+
+.btn-ufo{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff!important;
+  background-color :#4D429A!important;
+  border-radius: 30px 30px 30px 30px!important;
+  transition: 0.5s
+}
+
+.btn-ufo:hover, .btn-ufo:focus{
+  background-color: #9D50BB!important;
+  text-decoration: none;
+  outline: 0;
+}
+
+.text-light-purple{
+  color:#9D50BB;
 }
 
 header, main{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .headHr{
-	border-color: #007bff;
+	border-color: #4D429A;
 	width: 70px;
 	border-width: 3px;
 }
 
-.btn-page{
-  border-radius: 30px 30px 30px 30px!important;
-}
-@media (min-width: 767.98px)
-{ 
-  .LayananSection{
-    transition: margin 1s;
-  }
-
-  .LayananSection:hover{
-    margin: 10px;
-  }
+.layanan-section .card-title{
+  text-align: center;
+  margin: auto;
 }
 
 .LayananImg{
   border-radius: 50px 50px 150px 25px;
 }
 
-.LayananText{
-  margin:auto;
+.card-ufo {
+  background: #9D50BB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.card-ufo .card-title{
+  color: white;
+}
+
+.icon-page-main{
+ font-size: 3.5em;
+ margin: auto;
+ color: #6E48AA;
+}
+
+main h1{
+  font-weight: bolder;
+}
+
+.section-2{
+
+}
