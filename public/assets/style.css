@@ -24,6 +24,10 @@ a.nav-link:hover{
   color: #9D50BB!important;
 }
 
+.text-header-site{
+  text-shadow: .5px 2px #000;
+}
+
 .ufo-name{
   font-family: 'Righteous', sans-serif;
   font-size:2.5em;
@@ -49,7 +53,6 @@ a.nav-link:hover{
   user-select: none;
   color: #fff!important;
   background-color :#4D429A!important;
-  border-radius: 30px 30px 30px 30px!important;
   transition: 0.5s
 }
 
@@ -86,6 +89,7 @@ header, main{
   background: #9D50BB;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.15)!important;
 }
 
 .card-ufo .card-title{
@@ -102,6 +106,8 @@ main h1{
   font-weight: bolder;
 }
 
-.section-2{
-
+.ufo-price-section{
+  background: #9D50BB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
