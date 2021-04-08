@@ -106,20 +106,68 @@ main h1{
   font-weight: bolder;
 }
 
-.ufo-price-section{
+.layanan-section h1, .reason-us-section h1, .layanan-section-list p{
+  color: #343A40;
+}
+
+.layanan-section-list, .layanan-section-box{
+  border: solid 1px #DFE0E1;
+  transition: 0.5s;
+}
+
+.layanan-section-list:hover, .layanan-section-box:hover{
+  border: solid 1px #6E48AA;
+}
+
+.portofolio-section .col-md-3{
+  border: 2px solid  #3d3d3d;
+  padding: 5em;
+  margin-top: 2px;
+}
+
+.promo-section .modal{
   background: #9D50BB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.15)!important;
+}
+
+.text-promo{
+  font-family: 'Righteous', sans-serif;
+  font-size:1em;
+}
+
+.text-promo-modal{
+  font-family: 'Righteous', sans-serif;
+  font-size:25px;
+}
+
+.ufo-price-section{
+  background: linear-gradient(rgba(77,66,154,0.5), rgba(142,77,181,0.5)), url("img/icon_content2.png") no-repeat center center fixed;
+  background-size: cover;
+  transition: -webkit-filter 0.5s;
+  transition: filter 0.5s;
+  transition: filter 0.5s, -webkit-filter 0.5s;
 }
 
 .ufo-price-section .card{
-  border-radius: 25px 25px 5px 5px;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.25);
+  opacity: .9;
 }
 
 .price-section li{
   list-style-type: none;
 }
 
+.img-before-footer{
+  z-index: 1;
+  margin-top: -40px;
+}
+
 footer{
-  background :#444444;
+  background : transparent;
+}
+
+.img-opacity-75{
+ opacity: .75;
 }
