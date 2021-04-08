@@ -76,7 +76,7 @@ header, main{
 	border-width: 3px;
 }
 
-.layanan-section .card-title{
+.ufo-desc-section .card-title{
   text-align: center;
   margin: auto;
 }
@@ -171,6 +171,13 @@ main h1{
 footer{
   background : transparent;
 }
+@media (min-width: 992px) {
+  .contact-section .address{
+    background: url("img/icon_content1.png") no-repeat right;
+    background-size: contain;
+  }
+}
+
 
 .img-opacity-75{
  opacity: .75;
