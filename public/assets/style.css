@@ -3,71 +3,71 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display&family=Poppins&display&family=Montserrat&display=swap');
 .PageBackground {
-  background: linear-gradient(rgba(110,72,170,.15), rgba(157,80,187,.15), rgba(0,0,0,0.5)), url("img/bg.jpg") no-repeat center fixed;
-  background-size: cover;
-  transition: -webkit-filter 0.5s;
-  transition: filter 0.5s;
-  transition: filter 0.5s, -webkit-filter 0.5s;
+	background: linear-gradient(rgba(110,72,170,.15), rgba(157,80,187,.15), rgba(0,0,0,0.5)), url("img/bg.jpg") no-repeat center fixed;
+	background-size: cover;
+	transition: -webkit-filter 0.5s;
+	transition: filter 0.5s;
+	transition: filter 0.5s, -webkit-filter 0.5s;
 }
 
 nav {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a.nav-link{
-  letter-spacing: .5px;
-  color: #fff!important;
-  transition: color 0.5s;
+	letter-spacing: .5px;
+	color: #fff!important;
+	transition: color 0.5s;
 }
 
 a.nav-link:hover{
-  color: #9D50BB!important;
+	color: #9D50BB!important;
 }
 
 .text-header-site{
-  text-shadow: .5px 2px #000;
+	text-shadow: .5px 2px #000;
 }
 
 .ufo-name{
-  font-family: 'Righteous', sans-serif;
-  font-size:2.5em;
-  background: -webkit-linear-gradient(#6E48AA, #9D50BB);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	font-family: 'Righteous', sans-serif;
+	font-size:2.5em;
+	background: -webkit-linear-gradient(#6E48AA, #9D50BB);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .ufo-name-section{
-  font-family: 'Righteous', sans-serif;
-  font-size:2em;
+	font-family: 'Righteous', sans-serif;
+	font-size:2em;
 }
 
 .btn-ufo{
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: #fff!important;
-  background-color :#4D429A!important;
-  transition: 0.5s
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #fff!important;
+	background-color :#4D429A!important;
+	transition: 0.5s
 }
 
 .btn-ufo:hover, .btn-ufo:focus{
-  background-color: #9D50BB!important;
-  text-decoration: none;
-  outline: 0;
+	background-color: #9D50BB!important;
+	text-decoration: none;
+	outline: 0;
 }
 
 .text-light-purple{
-  color:#9D50BB;
+	color:#9D50BB;
 }
 
 header, main, footer, .ufo-price-section {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .headHr{
@@ -77,108 +77,132 @@ header, main, footer, .ufo-price-section {
 }
 
 .ufo-desc-section .card-title{
-  text-align: center;
-  margin: auto;
+	text-align: center;
+	margin: auto;
 }
 
 .LayananImg{
-  border-radius: 50px 50px 150px 25px;
+	border-radius: 50px 50px 150px 25px;
 }
 
 .card-ufo {
-  background: #9D50BB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.15)!important;
+	background: #9D50BB;
+	background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);
+	background: linear-gradient(to right, #6E48AA, #9D50BB);
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.15)!important;
 }
 
 .card-ufo .card-title{
-  color: white;
+	color: white;
 }
 
 .icon-page-main{
- font-size: 3.5em;
- margin: auto;
- color: #6E48AA;
+	font-size: 3.5em;
+	margin: auto;
+	color: #6E48AA;
 }
 
 main h1{
-  font-weight: bolder;
+	font-weight: bolder;
 }
 
 .layanan-section h1, .reason-us-section h1, .layanan-section-list p{
-  color: #343A40;
+	color: #343A40;
 }
 
 .layanan-section-list, .layanan-section-box{
-  border: solid 1px #DFE0E1;
-  transition: 0.5s;
+	border: solid 1px #DFE0E1;
+	transition: 0.5s;
 }
 
 .layanan-section-list:hover, .layanan-section-box:hover{
-  border: solid 1px #6E48AA;
+	border: solid 1px #6E48AA;
 }
 
 .portofolio-section .col-md-3{
-  border: 2px solid  #3d3d3d;
-  padding: 5em;
-  margin-top: 2px;
+	border: 2px solid  #3d3d3d;
+	padding: 5em;
+	margin-top: 2px;
 }
 
 .promo-section .modal{
-  background: #9D50BB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.15)!important;
+	background: #9D50BB;
+	background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  
+	background: linear-gradient(to right, #6E48AA, #9D50BB); 
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.15)!important;
 }
 
 .text-promo{
-  font-family: 'Righteous', sans-serif;
-  font-size:1em;
+	font-family: 'Righteous', sans-serif;
+	font-size:1em;
 }
 
 .text-promo-modal{
-  font-family: 'Righteous', sans-serif;
-  font-size:25px;
+	font-family: 'Righteous', sans-serif;
+	font-size:25px;
 }
 
 .ufo-price-section{
-  background: url("img/icon_content2.png") no-repeat center center fixed;
-  background-size: cover;
-  transition: -webkit-filter 0.5s;
-  transition: filter 0.5s;
-  transition: filter 0.5s, -webkit-filter 0.5s;
+	background: url("img/icon_content2.png") no-repeat center center fixed;
+	background-size: cover;
+	transition: -webkit-filter 0.5s;
+	transition: filter 0.5s;
+	transition: filter 0.5s, -webkit-filter 0.5s;
 }
 
 .ufo-price-section .card{
-  opacity: 1;
-  transition: 0.5s;
+	opacity: 1;
+	transition: 0.5s;
 }
 
 .ufo-price-section .card:hover, .ufo-price-section .card:focus{
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.15);
-  opacity: 0.9;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.15);
+	opacity: 0.9;
 }
 
 .price-section li{
-  list-style-type: none;
+	list-style-type: none;
 }
 
 .img-before-footer{
-  z-index: 1;
-  margin-top: -40px;
+	z-index: 1;
+	margin-top: -40px;
+}
+
+.quote-footer{
+	background: #9D50BB;
+	background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  
+	background: linear-gradient(to right, #6E48AA, #9D50BB); 
+	padding: 30px 0px;
+	margin-top: -45px;
+	align-items: center;
+	justify-content: center;
+}
+
+.quote-footer em{
+	color: #f8f9fa;
+	font-size:20px;
 }
 
 footer{
-  background : transparent;
+	background : transparent;
 }
 @media (min-width: 992px) {
-  .contact-section .address{
-    background: url("img/icon_content1.png") no-repeat right;
-    background-size: contain;
-  }
+	.contact-section .address{
+		background: url("img/icon_content1.png") no-repeat right;
+		background-size: contain;
+	}
+}
+
+footer a, footer p{
+	color: #343a40;
+	text-decoration: none!important;
+}
+
+footer a:hover{
+	color: #9D50BB;
 }
 
 .img-opacity-75{
- opacity: .75;
+	opacity: .75;
 }
