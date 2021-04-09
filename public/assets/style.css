@@ -3,7 +3,7 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display&family=Poppins&display&family=Montserrat&display=swap');
 .PageBackground {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/bg.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(110,72,170,.15), rgba(157,80,187,.15), rgba(0,0,0,0.5)), url("img/bg.jpg") no-repeat center fixed;
   background-size: cover;
   transition: -webkit-filter 0.5s;
   transition: filter 0.5s;
@@ -66,7 +66,7 @@ a.nav-link:hover{
   color:#9D50BB;
 }
 
-header, main{
+header, main, footer, .ufo-price-section {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -143,7 +143,7 @@ main h1{
 }
 
 .ufo-price-section{
-  background: linear-gradient(rgba(77,66,154,0.5), rgba(142,77,181,0.5)), url("img/icon_content2.png") no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("img/icon_content2.png") no-repeat center center fixed;
   background-size: cover;
   transition: -webkit-filter 0.5s;
   transition: filter 0.5s;
@@ -151,12 +151,13 @@ main h1{
 }
 
 .ufo-price-section .card{
-  opacity: .9;
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .ufo-price-section .card:hover, .ufo-price-section .card:focus{
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.15);
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .price-section li{
@@ -177,7 +178,6 @@ footer{
     background-size: contain;
   }
 }
-
 
 .img-opacity-75{
  opacity: .75;
